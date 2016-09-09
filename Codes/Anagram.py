@@ -8,7 +8,7 @@
 import collections, pprint, time, os
 
 start_time = time.time()
-print('Creating word list...')
+print('Creating word list from raw_word_list.txt...')
 word_list = sorted(list(set([word.strip().lower() for word in open('/Users/padhya/Documents/Python_Code/Data/raw_word_list.txt')])))
 
 def signature(word):
